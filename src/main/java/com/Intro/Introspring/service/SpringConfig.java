@@ -48,7 +48,7 @@ public class SpringConfig {
 //        return null;
 //    }
 
-//    @Bean // eror남 왜인지 모르겠음
+//    @Bean
 //    public TimeTraceAop timeTraceAop(){
 //        return new TimeTraceAop();
 //    }
