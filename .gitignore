@@ -2,12 +2,8 @@ HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-##추가
-*.properties
-*.gradle
+!**/src/main/**
+!**/src/test/**
 
 #####
 
@@ -20,17 +16,12 @@ build/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### NetBeans ###
 /nbproject/private/
